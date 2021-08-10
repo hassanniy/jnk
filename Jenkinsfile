@@ -4,11 +4,6 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
-      steps {
-        git 'https://github.com/hassanniy/jnk.git'
-      }
-    }
 
     stage('Build image') {
       steps{
